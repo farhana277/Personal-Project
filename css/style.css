@@ -1,0 +1,308 @@
+/* Custom CSS*/
+/* Navbar Starting  */
+.navbar .btn-outline-primary {
+  color: #5E3BEE; 
+  border-color: #5E3BEE;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.navbar-nav {
+    justify-content: center; /* Center-align links */
+  }
+.navbar .btn-outline-primary:hover {
+   background-color: #5E3BEE;
+   color: #fff; 
+   border-color: #5E3BEE; 
+  }
+ 
+.navbar-nav .nav-link:hover {
+    color: #5E3BEE; 
+  }
+  
+.navbar-nav .nav-link.active {
+    color: #5E3BEE; 
+    font-weight: bold;
+  }
+  
+
+/*Contact Form Starting*/
+#contact{
+  background-color: white;  
+}
+#contact h6 {
+  font-size: 0.9rem;
+  color: #6c757d; 
+  letter-spacing: 1px;
+}
+#contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#contact .form-label {
+  font-weight: 500;
+  color: #13171b;
+}
+#contact .form-control,
+#contact .form-select {
+  border-width: 1.5px;
+  border-radius: 0.5rem;
+  padding: 10px;
+  border-color: #6c63ff;
+}
+#contact .btn-primary {
+  background-color: #6c63ff;
+  border: none;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+#contact .btn-primary:hover {
+  background-color: #5E3BEE;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f3f8fc;
+}
+
+/* Hero Section Starting  */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+.hero-text h1 {
+  font-weight: 700;
+}
+.hero-text h1 span {
+  color: #6f43ff; 
+}
+.btn-primary {
+  background-color: #6f43ff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+}
+
+/* Portfolio Section Starting  */
+.portfolio-card img {
+  border-radius: 12px;
+}
+.portfolio-card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.dribbble-button {
+  background-color: #ff4081;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.dribbble-button:hover {
+  text-decoration:none;
+  background-color: #e1336e;
+}
+.portfolio-link {
+  font-size: 15px;;
+  color: inherit; 
+  display: inline-flex;
+  align-items: center; 
+  border-bottom: 2px solid #6f43ff; 
+  text-decoration: none; 
+}
+
+.portfolio-link .arrow {
+  font-size: 2rem; 
+  color: #185f28; 
+  transform: rotate(-45deg) scale(0.8);
+  }
+/* Individual Testimonial Card */
+.testimonial-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  border: 2px solid #006b6a; 
+}
+/* Star logo at the top left inside the card */
+.star-logo {
+  width: 50px; 
+  margin-bottom: 15px;
+}
+
+/* Testimonial content (text) */
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px; 
+}
+
+/* Author's details layout (avatar + name and company beside) */
+.testimonial-author {
+  display: flex;
+  margin-top: 10px;
+}
+
+.testimonial-author img {
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-author .name,
+.testimonial-author .company {
+  margin: 0; 
+  }
+.testimonial-author .company {
+  font-size: 12px;
+  color: #777;
+}
+/* Experience container Starting */
+.expertise-card {
+  background-color: #f8fbff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  padding: 20px;
+  position: relative;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+}
+
+.expertise-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.expertise-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 10px;
+  text-align: left; 
+}
+
+.expertise-desc {
+  text-align: left;
+  color: #6c757d;
+  font-size: 0.9375rem; 
+}
+/* Footer container Starting */
+.footer {
+  background-color: #F5FCFF;
+  padding: 100px 0;
+  font-size: 1rem;
+}
+
+.footer .footer-links {
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px; 
+  white-space: nowrap; 
+
+}
+.footer-links a{
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
+}
+.footer .footer-social a {
+  margin-left: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-top: 1px solid #7f8994;
+  margin-top: 15px;
+  padding-top: 20px;
+  font-size: .85rem;
+  color: #000;
+}
+
+.footer-bottom .footer-bottom-links a {
+  margin-left: 10px;
+  color: #000;
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Footer container Ending */
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 576px) {
+    .navbar-nav .nav-item {
+        margin-bottom: 1rem;
+      }
+    .hero-section {
+      flex-direction: column; 
+      padding: 2rem 1rem;
+      text-align: center; 
+    }
+  
+    .hero-text {
+      margin-bottom: 1.5rem;
+       
+    }
+    .footer {
+      text-align: center; 
+    }
+  
+    .footer .footer-links,
+    .footer .footer-social {
+      text-align: center !important;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Medium devices (tablets, 576px to 768px) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .hero-section {
+      flex-direction: row;
+      padding: 3rem 2rem;
+    }
+
+  }
+  
+  /* Large devices (desktops, greater than 768px) */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 1200px; 
+    }
+   
+    .navbar .nav-item {
+      margin: 0 1rem;
+    }
+  
+    .footer .footer-links a,
+    .footer .footer-social a {
+      margin-right: 2px; 
+    }
+  }
+  
